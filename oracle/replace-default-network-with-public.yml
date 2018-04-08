@@ -29,6 +29,10 @@
   path: /instance_groups/name=bosh/properties/director/default_ssh_options?/gateway_host
   value: ((external_ip))
 
+- type: replace
+  path: /instance_groups/name=bosh/properties/blobstore/address?
+  value: ((external_ip))
+
 # todo should not access non-defined vars
 - type: replace
   path: /cloud_provider/mbus
