@@ -21,8 +21,8 @@
 - type: replace
   path: /networks/name=default/subnets/0/cloud_properties?
   value:
-    vcn: ((vcn))
-    subnet_name: ((subnet))
+    vcn_id: ((vcn_id))
+    subnet_id: ((subnet_id))
 
 # Enable registry job
 - type: replace

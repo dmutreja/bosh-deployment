@@ -7,13 +7,13 @@ tenancy: "ocid1.tenancy.oc1..."
 # User OCID
 user: "ocid1.user.oc1..."
 # Compartment OCID
-compartment: "ocid1.compartment.oc1.."
+compartment: "ocid1.compartment.oc1..."
 # Region name
 region: "us-phoenix-1"
-# VCN name
-vcn: "BoshDirectorVCN"
-# Subnet name
-subnet: "director-subnet-ad1"
+# VCN id
+vcn_id: "ocid1.vcn.oc1..."
+# Subnet id
+subnet_id: "ocid1.subnet.oc1..."
 # Availability Domain name
 ad: WZYX:PHX-AD-1
 # CIDR range of the subnet listed above.

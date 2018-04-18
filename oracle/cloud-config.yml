@@ -38,8 +38,8 @@ networks:
     az: z1
     dns: [8.8.8.8]
     cloud_properties:
-      vcn: ((vcn))
-      subnet_name: ((subnet))
+      vcn_id: ((vcn_id))
+      subnet_id: ((subnet_id))
 
 compilation:
   workers: 5
